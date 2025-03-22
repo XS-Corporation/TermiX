@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		40BDEA7B2D8F2C7100827816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BDEA612D8F2C7000827816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BDEA682D8F2C7000827816;
+			remoteInfo = SwiftTerminal;
+		};
+		40BDEA852D8F2C7100827816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40BDEA612D8F2C7000827816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BDEA682D8F2C7000827816;
+			remoteInfo = SwiftTerminal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40BDEA692D8F2C7000827816 /* SwiftTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDEA7A2D8F2C7100827816 /* SwiftTerminalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTerminalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDEA842D8F2C7100827816 /* SwiftTerminalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTerminalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		40BDEA6B2D8F2C7000827816 /* SwiftTerminal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftTerminal;
+			sourceTree = "<group>";
+		};
+		40BDEA7D2D8F2C7100827816 /* SwiftTerminalTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftTerminalTests;
+			sourceTree = "<group>";
+		};
+		40BDEA872D8F2C7100827816 /* SwiftTerminalUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftTerminalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40BDEA662D8F2C7000827816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDEA772D8F2C7100827816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDEA812D8F2C7100827816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40BDEA602D8F2C7000827816 = {
+			isa = PBXGroup;
+			children = (
+				40BDEA6B2D8F2C7000827816 /* SwiftTerminal */,
+				40BDEA7D2D8F2C7100827816 /* SwiftTerminalTests */,
+				40BDEA872D8F2C7100827816 /* SwiftTerminalUITests */,
+				40BDEA6A2D8F2C7000827816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40BDEA6A2D8F2C7000827816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40BDEA692D8F2C7000827816 /* SwiftTerminal.app */,
+				40BDEA7A2D8F2C7100827816 /* SwiftTerminalTests.xctest */,
+				40BDEA842D8F2C7100827816 /* SwiftTerminalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40BDEA682D8F2C7000827816 /* SwiftTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDEA8E2D8F2C7100827816 /* Build configuration list for PBXNativeTarget "SwiftTerminal" */;
+			buildPhases = (
+				40BDEA652D8F2C7000827816 /* Sources */,
+				40BDEA662D8F2C7000827816 /* Frameworks */,
+				40BDEA672D8F2C7000827816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				40BDEA6B2D8F2C7000827816 /* SwiftTerminal */,
+			);
+			name = SwiftTerminal;
+			packageProductDependencies = (
+			);
+			productName = SwiftTerminal;
+			productReference = 40BDEA692D8F2C7000827816 /* SwiftTerminal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BDEA792D8F2C7100827816 /* SwiftTerminalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDEA912D8F2C7100827816 /* Build configuration list for PBXNativeTarget "SwiftTerminalTests" */;
+			buildPhases = (
+				40BDEA762D8F2C7100827816 /* Sources */,
+				40BDEA772D8F2C7100827816 /* Frameworks */,
+				40BDEA782D8F2C7100827816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BDEA7C2D8F2C7100827816 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40BDEA7D2D8F2C7100827816 /* SwiftTerminalTests */,
+			);
+			name = SwiftTerminalTests;
+			packageProductDependencies = (
+			);
+			productName = SwiftTerminalTests;
+			productReference = 40BDEA7A2D8F2C7100827816 /* SwiftTerminalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40BDEA832D8F2C7100827816 /* SwiftTerminalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDEA942D8F2C7100827816 /* Build configuration list for PBXNativeTarget "SwiftTerminalUITests" */;
+			buildPhases = (
+				40BDEA802D8F2C7100827816 /* Sources */,
+				40BDEA812D8F2C7100827816 /* Frameworks */,
+				40BDEA822D8F2C7100827816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BDEA862D8F2C7100827816 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40BDEA872D8F2C7100827816 /* SwiftTerminalUITests */,
+			);
+			name = SwiftTerminalUITests;
+			packageProductDependencies = (
+			);
+			productName = SwiftTerminalUITests;
+			productReference = 40BDEA842D8F2C7100827816 /* SwiftTerminalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40BDEA612D8F2C7000827816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					40BDEA682D8F2C7000827816 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					40BDEA792D8F2C7100827816 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 40BDEA682D8F2C7000827816;
+					};
+					40BDEA832D8F2C7100827816 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 40BDEA682D8F2C7000827816;
+					};
+				};
+			};
+			buildConfigurationList = 40BDEA642D8F2C7000827816 /* Build configuration list for PBXProject "SwiftTerminal" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40BDEA602D8F2C7000827816;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 40BDEA6A2D8F2C7000827816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40BDEA682D8F2C7000827816 /* SwiftTerminal */,
+				40BDEA792D8F2C7100827816 /* SwiftTerminalTests */,
+				40BDEA832D8F2C7100827816 /* SwiftTerminalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40BDEA672D8F2C7000827816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDEA782D8F2C7100827816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDEA822D8F2C7100827816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40BDEA652D8F2C7000827816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDEA762D8F2C7100827816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDEA802D8F2C7100827816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BDEA7C2D8F2C7100827816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BDEA682D8F2C7000827816 /* SwiftTerminal */;
+			targetProxy = 40BDEA7B2D8F2C7100827816 /* PBXContainerItemProxy */;
+		};
+		40BDEA862D8F2C7100827816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BDEA682D8F2C7000827816 /* SwiftTerminal */;
+			targetProxy = 40BDEA852D8F2C7100827816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40BDEA8C2D8F2C7100827816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40BDEA8D2D8F2C7100827816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		40BDEA8F2D8F2C7100827816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftTerminal/SwiftTerminal.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftTerminal/Preview Content\"";
+				DEVELOPMENT_TEAM = 29FGQWN6Y7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XS-Corporation-LLC.TermiX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40BDEA902D8F2C7100827816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftTerminal/SwiftTerminal.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftTerminal/Preview Content\"";
+				DEVELOPMENT_TEAM = 29FGQWN6Y7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XS-Corporation-LLC.TermiX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40BDEA922D8F2C7100827816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XS-Corporation-LLC.SwiftTerminalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTerminal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTerminal";
+			};
+			name = Debug;
+		};
+		40BDEA932D8F2C7100827816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XS-Corporation-LLC.SwiftTerminalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTerminal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftTerminal";
+			};
+			name = Release;
+		};
+		40BDEA952D8F2C7100827816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XS-Corporation-LLC.SwiftTerminalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftTerminal;
+			};
+			name = Debug;
+		};
+		40BDEA962D8F2C7100827816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XS-Corporation-LLC.SwiftTerminalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwiftTerminal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40BDEA642D8F2C7000827816 /* Build configuration list for PBXProject "SwiftTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDEA8C2D8F2C7100827816 /* Debug */,
+				40BDEA8D2D8F2C7100827816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BDEA8E2D8F2C7100827816 /* Build configuration list for PBXNativeTarget "SwiftTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDEA8F2D8F2C7100827816 /* Debug */,
+				40BDEA902D8F2C7100827816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BDEA912D8F2C7100827816 /* Build configuration list for PBXNativeTarget "SwiftTerminalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDEA922D8F2C7100827816 /* Debug */,
+				40BDEA932D8F2C7100827816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40BDEA942D8F2C7100827816 /* Build configuration list for PBXNativeTarget "SwiftTerminalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDEA952D8F2C7100827816 /* Debug */,
+				40BDEA962D8F2C7100827816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40BDEA612D8F2C7000827816 /* Project object */;
+}

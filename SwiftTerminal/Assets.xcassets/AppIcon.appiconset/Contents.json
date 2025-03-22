@@ -1,0 +1,68 @@
+{
+  "images" : [
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 7.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 6.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "16x16"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 5.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 4.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "32x32"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 3.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 2.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "128x128"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 1.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "256x256"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 8.jpeg",
+      "idiom" : "mac",
+      "scale" : "1x",
+      "size" : "512x512"
+    },
+    {
+      "filename" : "8B730194-0F68-422A-8470-CD394A4F98AF 9.jpeg",
+      "idiom" : "mac",
+      "scale" : "2x",
+      "size" : "512x512"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
